@@ -5,27 +5,22 @@ import java.util.Scanner;
 public class ExemploDoisWhile {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		 // Criando o Scanner para entrada do usuário
-        Scanner leia = new Scanner(System.in);
-        int opcao = 0;
-
-        // Enquanto opcao for diferente de 9, o loop continuará
-        while (opcao != 9) {
-            System.out.println("Digite qualquer número para continuar ou\n9 para sair");
-
-            // Corrigindo o erro na leitura da entrada do usuário
-            opcao = leia.nextInt();
-            System.out.println("Opção digitada = " + opcao);
-            System.out.println("==================");
-        }
-
-        // Fechando o Scanner para evitar vazamento de recursos
+		// quando o usuario vai definir quando parar a repetição
 		
-		System.out.println("Obrigada por usar nosso app super legal!");
-		
-		
-	}
-
-}
+				Scanner leia = new Scanner(System.in);
+				int opcao=0;
+				
+				
+				//enquanto opção que ser entrada do usuario for diferente 9 repetir bloco
+				while(opcao != 9) {
+					System.out.println("Digite qualquer numero para continuar ou"
+							+ "\n 9 para sair");
+					opcao = leia.nextInt();
+					System.out.println("Opção digitada = " + opcao);
+					System.out.println("================================");
+					
+				}
+				System.out.println("Obrigada por usar nosso app super legal!");
+				
+			}
+		}
